@@ -911,3 +911,27 @@ h1 {
 }
 
 
+@media(max-width:420px){
+  .profile-list strong{
+    margin-right: 0px;
+    width: 100%;
+  }
+  .profile-list li {
+    margin-top: 15px;
+  }
+  .timeline{
+    position: relative;
+    right: 30px;
+  }
+  .timeline-list li .date {
+    font-size: 14px;
+  }
+  
+  .item{
+    height: 720px;
+  }
+  img.ben{
+    height: 220px;
+  }
+
+}
